@@ -1,0 +1,1 @@
+find . -type f -not \( -path "./Android/*" -o -path "*/.thumbnails/*" \) -exec md5sum {} \; > DCIM_20230105.md5
